@@ -20,11 +20,6 @@ tracker_node  ──►  /object_position (geometry_msgs/Point)
               Pan/Tilt servos
 ```
 
-> **Resume line:** *ROS 2 & OpenCV Vision-Guided Control: Developed a ROS 2
-> Python package integrating OpenCV for real-time object tracking. Processed the
-> video stream to detect targets and published motor control commands over ROS 2
-> topics to an ESP32 microcontroller.*
-
 ---
 
 ## Project Status
