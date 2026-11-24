@@ -1,0 +1,11 @@
+# Host-side Python dependencies for the tools/ utilities and for running the
+# pure-Python test suite WITHOUT a full ROS 2 install.
+#
+# Inside a ROS 2 workspace these are provided by the ROS distribution itself
+# (python3-opencv, python3-numpy, python3-serial, python3-pytest), so this file
+# is only needed for standalone development on the PC.
+
+opencv-python>=4.5
+numpy>=1.21
+pyserial>=3.5
+pytest>=6.0

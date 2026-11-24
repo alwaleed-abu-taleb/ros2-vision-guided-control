@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+colcon_ignore
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment / secrets
+.env
+*.env.local
+
+# Firmware build artifacts (PlatformIO: .pio/ ; legacy Arduino: build/)
+.pio/
+esp32/*/build/
+esp32/*/.pio/
+*.elf
+*.bin
+*.hex
+*.map
+
+# OS junk
+.DS_Store
+Thumbs.db
